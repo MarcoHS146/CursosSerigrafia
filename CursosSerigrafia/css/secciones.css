@@ -1,0 +1,22 @@
+#centrarla2:hover {
+	border: solid black;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F5E3F5), color-stop(1, #9EBEFF));
+	background:-moz-linear-gradient(top, #9EBEFF 5%, #9EBEFF 100%);
+	background:-webkit-linear-gradient(top, #9EBEFF 5%, #9EBEFF 100%);
+	background:-o-linear-gradient(top, #9EBEFF 5%, #9EBEFF 100%);
+	background:-ms-linear-gradient(top, #9EBEFF 5%, #9EBEFF 100%);
+	background:linear-gradient(to bottom, #9EBEFF 5%, #9EBEFF 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9EBEFF', endColorstr='#9EBEFF',GradientType=0);
+	background-color:#9EBEFF;
+}
+#centrarla2 img {
+    width: 100%;
+    height: 100%;
+
+}
+#seccion_temas h3 {
+	text-align: center;
+	margin: 5% 1%;
+	font-family:Arial, Hevetica, sans-serif;	
+	font-size: 100%;
+}

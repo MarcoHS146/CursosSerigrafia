@@ -1,0 +1,646 @@
+@charset "utf-8";
+/*---------------------------------------------------- DESKTOP -----------------------------------------------------*/
+@media screen and (min-width: 1851px){
+	.seccion {
+		width: 100%;
+		margin: 12px auto;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.cuadro_index{
+		margin-top: 150px; 
+		margin-bottom: 260px;
+	}
+	.cuadro_3{
+		margin-bottom: 475px;
+	}
+	#seccion_cursos {
+	position: relative;
+	}
+	#seccion_cursos img{
+		width: 100%;
+		/*height: auto;*/
+		opacity: 0.6;
+	}
+
+	#seccion_cursos h3 {
+		position: absolute;
+		top: 40%;
+		width: 12%;
+		text-align: center;
+		font-family:Arial, Hevetica, sans-serif;
+	}
+}
+/*---------------------------------------------------- LAPTOP -----------------------------------------------------*/
+@media screen and (min-width: 1221px) and (max-width:1850px){
+		#encabezado {
+		width: 80%;
+	}
+	.seccion {
+		width: 100%;
+		margin: 12px auto;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.cuadro_index{
+		margin-top: 150px; 
+		margin-bottom: 250px;
+	}
+	.cuadro_3{
+		margin-bottom: 450px;
+	}
+	#seccion_cursos {
+	position: relative;
+	}
+	#seccion_cursos img{
+		width: 100%;
+		/*height: auto;*/
+		opacity: 0.6;
+	}
+
+	#seccion_cursos h3 {
+		position: absolute;
+		top: 40%;
+		width: 180px;
+		text-align: center;
+		font-family:Arial, Hevetica, sans-serif;
+	}
+}
+/*---------------------------------------------------- TABLET -------------------------------------------------------*/
+/*****LANDSCAPE:H****/
+@media screen and (min-width: 1024px) and (max-width: 1220px){
+	#encabezado {
+		width: 100%;
+	}
+	#centrarla {
+		margin-bottom: 12px;
+	}
+	.seccion {
+		width: 100%;
+		margin: 12px auto;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.cuadro_index{
+		margin-top: 125px; 
+		margin-bottom: 215px;
+	}
+	.cuadro_3{
+		margin-bottom: 375px;
+	}
+	#seccion_cursos {
+	position: relative;
+	}
+	#seccion_cursos img{
+		width: 100%;
+		/*height: auto;*/
+		opacity: 0.6;
+	}
+
+	#seccion_cursos h3 {
+		position: absolute;
+		top: 40%;
+		width: 180px;
+		text-align: center;
+		font-family:Arial, Hevetica, sans-serif;
+	}
+}
+/* cierre de tableta*/
+/*********** PORTRAIT:V**************/
+@media screen and (min-width: 681px) and (max-width: 1023px){
+	#encabezado {
+		width: 100%;
+	}
+	div.slider_4 {
+		width: 100%;
+	}
+	div.slider_2 {
+		width: 50%;
+	}
+
+	#table{
+		border:none;
+	}
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	thead tr {
+		position: absolute;
+		top: -9999px;*/
+		left: -9999px;
+	}
+	tr {
+		margin: 0 0 1rem 0;
+	}
+	tr:nth-child(odd) {
+		background: #f2f2f2;
+	}
+	td {
+		border: none;
+		border-bottom: 1px solid #fff;
+		position: relative;
+		padding-left: 50%;
+	}
+	td:before {
+		border: none;
+		position: absolute;
+		top: 0;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before {
+		content: "Numero";
+		margin: 0;
+	}
+	td:nth-of-type(2):before { 
+		content: "Nombre";
+		margin: 0;
+
+	}
+	td:nth-of-type(3):before { 
+		content: "Año";
+		margin: 0;
+	}
+	td:nth-of-type(4):before { 
+		content: "Correo";
+		margin: 0;
+	}
+	td:nth-of-type(5):before { 
+		content: "Actualizar";
+		padding: 6px 0;
+		margin: 0;
+	}
+	td:nth-of-type(6):before { 
+		content: "Eliminar";
+		padding: 6px 0;
+		margin: 0;
+	}
+	#centrarla {
+		margin-bottom: 12px;
+	}
+	.seccion {
+		width: 100%;
+		margin: 12px auto;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.cuadro_index{
+		margin-top: 125px; 
+		margin-bottom: 190px;
+	}
+	.cuadro_3{
+		margin-bottom: 350px;
+	}
+	#seccion_cursos {
+	position: relative;
+	}
+	#seccion_cursos img{
+		width: 100%;
+		/*height: auto;*/
+		opacity: 0.6;
+	}
+	#seccion_cursos h3 {
+		position: absolute;
+		top: 40%;
+		width: 160px;
+		text-align: center;
+		font-family:Arial, Hevetica, sans-serif;
+	}
+	#centrarla2 {
+	display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: solid rgba(97,126,155,1);
+	opacity: 0.5;
+	}
+}
+/*---------------------------------------------------- PHONE ----------------------------------------------------------*/
+/*****LANDSCAPE:H****/
+@media screen and (min-width: 309px) and (max-width: 680px) {
+	#encabezado {
+		width: 100%;
+	}
+	#table{
+		border:none;
+	}
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	thead tr {
+		position: absolute;
+		top: -9999px;*/
+		left: -9999px;
+	}
+	tr {
+		margin: 0 0 1rem 0;
+	}
+	tr:nth-child(odd) {
+		background: #f2f2f2;
+	}
+	td {
+		border: none;
+		border-bottom: 1px solid #fff;
+		position: relative;
+		padding-left: 30%;
+	}
+	td:before {
+		border: none;
+		position: absolute;
+		top: 0;
+		left: 6px;
+		width: 30%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before {
+		content: "Numero";
+		margin: 0;
+	}
+
+	td:nth-of-type(2):before { 
+		content: "Nombre";
+		margin: 0;
+	}
+	td:nth-of-type(3):before { 
+		content: "Año";
+		margin: 0;
+	}
+	td:nth-of-type(4):before { 
+		content: "Correo";
+		margin: 0;
+	}
+	td:nth-of-type(5):before { 
+		content: "Actualizar";
+		padding: 6px 0;
+		margin: 0;
+	}
+	td:nth-of-type(6):before { 
+		content: "Eliminar";
+
+		padding: 6px 0;
+		margin: 0;
+	}
+	#centrarla {
+		margin-bottom: 12px;
+	}
+
+	.slider_4 img{
+		display: none;
+	}
+	.slider_2 {
+		position: relative;
+		width: 100%;
+	}
+	#menu {
+
+		display: none;
+	}
+	.seccion {
+		width: 100%;
+		margin: 12px auto;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#centrarla2 {
+    width: 360px;
+    height: 160px;
+    margin-top: 30px; 
+	margin-bottom: 30px;
+}
+	h2 {
+	    display: block;
+	    content: "";
+	    clear: both;
+		}
+	ul {
+	  list-style:none;
+	}
+	.nav > li {
+
+	  width: 150px;
+	}
+	#menuhamburguesa li a {
+	  font-family:Arial, Hevetica, sans-serif;
+	  font-size: 12px;
+	  text-decoration: none;
+	  padding: 20px 30px;
+	  background-color: #134175;
+	  color: #fff;
+	  display: inline-block;
+	}
+	#menuhamburguesa li a:hover {
+	  background-color: #2970ae;
+	}
+	#menuhamburguesa li a {
+	  font-family:Arial, Hevetica, sans-serif;
+	  font-size: 12px;
+	  text-decoration: none;
+	  padding: 20px 30px;
+	  background-color: #134175;
+	  color: #fff;
+	  display:block;
+	}        
+	.nav li ul {
+	  display:none;
+	  margin-top: -55px;
+	  margin-left: 150px;
+	  position:absolute;
+	}     
+	.nav li:hover > ul {
+	  display:inline-block;
+	}
+	.nav > li {
+	    float: none;
+	}
+	.open:onclick {
+	  display:inline-block;
+	} 
+	#menuhamburguesa {
+	    position: absolute;
+	    z-index: 1;
+	}
+	.hamburger {
+	  margin:20px;
+	  min-height: 30px;
+	  max-width: 50px;
+	}
+	.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+		background-color: #48C;
+		position: absolute;
+		width: 40px;
+		height: 4px;
+		border-radius: 5px;
+		content: '';
+		transition-timing-function: ease;
+		transition-duration: .2s;
+		transition-property: opacity,-webkit-transform;
+		transition-property: transform,opacity;
+		transition-property: transform,opacity,-webkit-transform;
+	}
+	.hamburger-inner {
+		top: 30px;
+	}
+	.hamburger-inner:before {
+		top: -10px;
+	}
+	.hamburger-inner:after {
+		top: 10px;
+	}
+	.hamburger.open .hamburger-inner:after {
+		top: 0;
+		transform: translate3d(-10px, -9px, 0) rotate(-45deg) scale(0.7, 1);
+		transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	}
+	.hamburger.open .hamburger-inner:before {
+		bottom: 0;
+		transform: translate3d(-9px, 20px, 0) rotate(45deg) scale(0.7, 1);
+		transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	}
+	#menuhamburguesa {
+	  	margin-left: 40px;
+		margin-top: 30px;
+	}
+	.menuhamburguesa{
+	  display: none;
+	}
+	.show {
+	  display:block;
+	}
+	iframe{
+		width: 90%;
+		height: 225px;
+	}
+	.cuadro_index{
+		margin-top: 50px; 
+		margin-bottom: 120px;
+	}
+	.cuadro_3{
+		margin-top: 50px;
+		margin-bottom: 300px;
+	}
+	.cuadro_index input, #actualizar_alumno input, #alumnos input{
+		width: 90%;
+	}
+		#seccion_cursos {
+	position: relative;
+	}
+	#seccion_cursos img{
+		width: 100%;
+		/*height: auto;*/
+		opacity: 0.6;
+	}
+	#seccion_cursos h3 {
+		position: absolute;
+		margin: 70px auto;
+		width: 360px;
+		text-align: center;
+		font-family:Arial, Hevetica, sans-serif;
+	}
+}
+/*****PORTRAIT:V****/
+@media screen and (max-width: 308px) {
+
+	#encabezado {
+		width: 100%;
+	}
+	#table{
+		border:none;
+	}
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	thead tr {
+		position: absolute;
+		top: -9999px;*/
+		left: -9999px;
+	}
+	tr {
+		margin: 0 0 1rem 0;
+	}
+	tr:nth-child(odd) {
+		background: #f2f2f2;
+	}
+	td {
+		border: none;
+		border-bottom: 1px solid #fff;
+		position: relative;
+		padding-left: 25%;
+	}
+	td:before {
+		border: none;
+		position: absolute;
+		top: 0;
+		left: 6px;
+		width: 25%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before {
+		content: "Numero";
+		margin: 0;
+	}
+	td:nth-of-type(2):before { 
+		content: "Nombre";
+		margin: 0;
+	}
+	td:nth-of-type(3):before { 
+		content: "Año";
+		margin: 0;
+	}
+	td:nth-of-type(4):before { 
+		content: "Correo";
+		margin: 0;
+	}
+	td:nth-of-type(5):before { 
+		content: "Actualizar";
+		padding: 6px 0;
+		margin: 0;
+	}
+	td:nth-of-type(6):before { 
+		content: "Eliminar";
+		padding: 6px 0;
+		margin: 0;
+	}
+	#centrarla {
+		margin-bottom: 12px;
+	}
+	.slider_4 img{
+		display: none;
+	}
+	.slider_2 {
+		position: relative;
+		width: 100%;
+	}
+	#menu {
+		display: none;
+	}
+	.seccion {
+		border: solid red;
+		width: 100%;
+		margin: 12px auto;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#centrarla2 {
+    width: 180px;
+    height: 150px;
+    margin-top: 30px; 
+	margin-bottom: 30px;
+}
+	#menuhamburguesa li a {
+	  font-family:Arial, Hevetica, sans-serif;
+	  font-size: 12px;
+	  text-decoration: none;
+	  padding: 20px 30px;
+	  background-color: #134175;
+	  color: #fff;
+	  display: inline-block;
+	}
+	#menuhamburguesa li a:hover {
+	  background-color: #2970ae;
+	}
+	#menuhamburguesa li a {
+	  font-family:Arial, Hevetica, sans-serif;
+	  font-size: 12px;
+	  text-decoration: none;
+	  padding: 20px 30px;
+	  background-color: #134175;
+	  color: #fff;
+	  display:block;
+	}        
+	.nav li ul {
+	  display:none;
+	  margin-top: -55px;
+	  margin-left: 105px;
+	  position:absolute;
+	}     
+	.nav li:hover > ul {
+	  display:inline-block;
+	}
+	.nav > li {
+	    float: none;
+	}
+	.open:onclick {
+	  display:inline-block;
+	} 
+	#menuhamburguesa {
+	    position: absolute;
+	    z-index: 1;
+	}
+	.hamburger {
+	  margin:20px;
+	  min-height: 30px;
+	  max-width: 50px;
+	}
+	.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+
+		background-color: #48C;
+		position: absolute;
+		width: 40px;
+		height: 4px;
+		border-radius: 5px;
+		content: '';
+		transition-timing-function: ease;
+		transition-duration: .2s;
+		transition-property: opacity,-webkit-transform;
+		transition-property: transform,opacity;
+		transition-property: transform,opacity,-webkit-transform;
+	}
+	.hamburger-inner {
+		top: 30px;
+	}
+	.hamburger-inner:before {
+		top: -10px;
+	}
+	.hamburger-inner:after {
+		top: 10px;
+	}
+	.hamburger.open .hamburger-inner:after {
+		top: 0;
+		transform: translate3d(-10px, -9px, 0) rotate(-45deg) scale(0.7, 1);
+		transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	}
+	.hamburger.open .hamburger-inner:before {
+		bottom: 0;
+		transform: translate3d(-9px, 20px, 0) rotate(45deg) scale(0.7, 1);
+		transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	}
+	#menuhamburguesa {
+	  	margin-left: 40px;
+		margin-top: 30px;
+	}
+	.menuhamburguesa{
+	  display: none;
+	}
+	.show {
+	  display:block;
+	}
+	.cuadro_index{
+		margin-top: 50px; 
+		margin-bottom: 80px;
+	}
+	.cuadro_index input, #actualizar_alumno input, #alumnos input{
+		width: 90%;
+	}
+	.cuadro_3{
+		margin-top: 50px;
+		margin-bottom: 200px;
+	}
+	#datos_actualizados td{
+    font-size: 0.5625rem;
+	}
+	#datos_actualizados img{
+		width: 15px;
+		height: 15px;
+	}
+}
